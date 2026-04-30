@@ -1,0 +1,9 @@
+architectury {
+    common(rootProject.enabled_platforms.split(","))
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
+    modImplementation "maven.modrinth:ldlib:mc1.20.1-1.0.50-forge"
+    modImplementation "curse.maven:monilabs-1266569:7923378"
+}
